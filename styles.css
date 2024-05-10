@@ -1,0 +1,39 @@
+/* modelo de caja
+como podemos tratar nuestros elementos para darle
+diferentes medidas como el ancho el alto y los margenes
+
+margen interno (padding) va alrededor de nuestra caja margen que se encuentra
+entre nuestro contenido y el borde
+borde: es otra propiedad que podemos darle a nuestros elementos
+margen externo (margin): el margen que tenemos o epaciado entre el borde y otro elemento
+*/
+
+* {
+    padding: 0; /* para quitar los margenes que se encuentran por defecto en el documento*/
+    margin: 0; /* para quitar los margenes que se encuentran por defecto en el documento*/
+}
+
+body {
+    color: black;
+    font-family: Arial;
+    line-height: 22px;
+}
+.caja {
+    background: #0353a4;
+    width: 200px;
+    height: 200px;/* el alto normalmente no se escribe se deja en automatico*/
+    margin: 20px; /* si se le ponen 2 valores, el primero es el margen que tendra arriba y abajo
+    y el segundo el margen de izquierda y derecha si son 4 valores el primero es arriba, el 
+    siguiente es de la derecha, el que sigue abajo y el ultimo el de la izquierda 20px,10px,5px,3px*/
+    /*margin-top: 20px;
+    margin-right: 10px;
+    margin-left: 5px;
+    margin-bottom: 10px;*/
+    padding: 20px;
+    border: 5px solid black;
+}
+
+.caja p {
+    background: gray;
+
+}
